@@ -5,42 +5,52 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   border: 10px;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .logo {
   display: flex;
   border: 1px solid black;
+  align-items: center;
+  padding-left: 30px;
 
 }
 
 nav {
   display: inline-flex;
+  align-items: flex-end;
+  justify-content: right;
+  padding: 30px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     margin-right: 32px;
+
+
 }
 
 .column.large {
-  display: inline-flex;
   width: 630px;
   border: 1px solid black;
+  display: block;
 }
 
 .column.medium {
-  display: inline-flex;
   width: 300px;
   border: 1px solid black;
 }
 
 .column.small {
-  display: inline-flex;
   width: 240px;
   border: 1px solid black;
 }
 
 .content  {
     border: 1px solid black;
+    display: flex;
 }
