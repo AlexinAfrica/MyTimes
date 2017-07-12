@@ -5,10 +5,13 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   border: 10px;
-  align-items: center;
-  flex-direction: row;
+
   width: 100%;
-  justify-content: space-between;
+
+}
+
+span {
+  padding: 10px;
 }
 
 .logo {
@@ -20,10 +23,9 @@ header {
 }
 
 nav {
-  display: inline-flex;
-  align-items: flex-end;
-  justify-content: right;
+  justify-content: flex-end;
   padding: 30px;
+
 }
 
 .column {
@@ -31,26 +33,43 @@ nav {
     flex-direction: column;
     margin-right: 32px;
 
-
 }
 
 .column.large {
   width: 630px;
   border: 1px solid black;
-  display: block;
+
 }
 
 .column.medium {
   width: 300px;
   border: 1px solid black;
+  margin-right: 32px;
 }
 
 .column.small {
   width: 240px;
   border: 1px solid black;
+  margin-right: 32px;
 }
 
-.content  {
+.main.content{
     border: 1px solid black;
-    display: flex;
+    justify-content: center;
+}
+
+.story {
+    border: 1px solid black;
+}
+
+.stories {
+    border: 1px solid black;
+}
+
+.image-content {
+    border: 1px solid black;
+}
+
+.news-bites {
+    border: 1px solid black;
 }
