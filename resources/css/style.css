@@ -38,7 +38,7 @@ nav {
 .column.large {
   width: 630px;
   border: 1px solid black;
-
+  margin-right: 32px;
 }
 
 .column.medium {
@@ -53,9 +53,10 @@ nav {
   margin-right: 32px;
 }
 
-.main.content{
+.content  {
+    display: flex;
     border: 1px solid black;
-    justify-content: center;
+    margin: 0 auto 78px auto
 }
 
 .story {
