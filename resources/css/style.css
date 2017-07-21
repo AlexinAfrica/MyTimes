@@ -9,6 +9,9 @@ header {
   height: 80px;
   width: 100%;
   background-color: white;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  position: fixed;
 
 
 }
@@ -150,13 +153,17 @@ nav {
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    width: 100%;
     background-color: MediumAquamarine;
     margin: auto;
     font-family: Verdana;
     font-size: 12px;
 }
 
-footer.title {
+.title {
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
